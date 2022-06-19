@@ -1,0 +1,27 @@
+VisualElement {
+    
+}
+
+GroupBox
+{
+    flex-direction: row;
+}
+
+GroupBox ObjectField
+{
+    flex-shrink: 1;
+    max-width: 100px;
+}
+
+GroupBox GameEventDropDown
+{
+    flex-grow: 1;
+    max-width: 200px;
+}
+
+GroupBox .Name
+{
+    max-width: 100px;
+    min-width: 100px;
+    overflow: hidden;
+}

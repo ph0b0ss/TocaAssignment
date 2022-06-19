@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:GroupBox style="min-height: 30px; background-color: rgb(125, 195, 231); align-items: center; flex-direction: row; justify-content: center;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" style="-unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); -unity-font-style: bold; font-size: 21px; color: rgb(0, 0, 0);" />
+        <ui:Label text="Event" display-tooltip-when-elided="true" style="-unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); -unity-font-style: bold; font-size: 21px; color: rgb(0, 0, 0);" />
+    </ui:GroupBox>
+</ui:UXML>
