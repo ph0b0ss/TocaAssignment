@@ -12,7 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  title: 
-  sections: []
-  loadedLayout: 0
+  icon: {fileID: 2800000, guid: bcfcd852517db1e42b6f0a7bcb6d979d, type: 3}
+  title: Toca AssignMent
+  sections:
+  - heading: Toca Boca Assignment
+    text: Hi, my name is Jose de la Iglesia and this is the repository that includes
+      all related with the Assignment for the Senior Programmer position.
+    linkText: 
+    url: asdasd.com
+  - heading: Quick Reference Guide
+    text: To Create a Game Event, right click in the project folder where you want
+      the event to be and choose Create/TocaAssigment/GameEvent.   To Create a new
+      Event listener you can use the same method or use the wizard located in the
+      AudioSystem in the scene
+    linkText: 
+    url: asdasd.com
+  - heading: Full Documentation
+    text: If you want a full explanation of the system just check the readme of the
+      git repository
+    linkText: Readme
+    url: https://github.com/ph0b0ss/TocaAssignment/blob/main/README.md
+  loadedLayout: 1
