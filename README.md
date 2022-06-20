@@ -188,3 +188,8 @@ To create GameEvents or new Audios for the game, the user only need to create th
 folder but to show how I would make this in a production environment, I use the new UI Toolkit to create an Editor for the AudioSystem
 
 ![AudioSystem Editor](https://github.com/ph0b0ss/TocaAssignment/blob/main/audioSystem.PNG)
+
+Here you can see that is easy to create a new listener to a GameEvent and assign a sound that will be played reacting to that event.
+The GameEvent dropDown is a custom component that i make from scratch and track dinamically the GameEvents in the project and update 
+the list. If you change the event in that dropDown of the current listeners its update on runtime also, as all related with this AudioSystem
+that works also in build.
