@@ -4,7 +4,7 @@ using UnityEngine;
 namespace TocaAssignment
 {
     [Serializable]
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "TocaAssignment/AudioEventListener")]
     public class AudioEventListener : ScriptableObject,IGameEventListener
     {
         public AudioSystem audioSystem;

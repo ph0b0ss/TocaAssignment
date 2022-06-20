@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace TocaAssignment
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "TocaAssignment/AudioPlayable/SinglePlayList")]
     public class SingleAudioClipDescriptor : AudioPlayable
     {
         public AudioInfo audioClip;

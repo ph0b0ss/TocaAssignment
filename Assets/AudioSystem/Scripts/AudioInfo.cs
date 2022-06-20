@@ -3,7 +3,7 @@ using UnityEngine.Audio;
 
 namespace TocaAssignment
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "TocaAssignment/AudioInfo")]
     public class AudioInfo : ScriptableObject
     {
         public AudioClip audioClip;

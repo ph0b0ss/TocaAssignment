@@ -5,7 +5,7 @@ using UnityEngine;
 namespace TocaAssignment
 {
 
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "TocaAssignment/AudioPlayable/RandomPlayList")]
     public class RandomAudioPlayList : AudioPlayable
     {
         public List<AudioInfo> audioClips = new List<AudioInfo>();

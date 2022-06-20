@@ -6,7 +6,7 @@ using UnityEngine;
 namespace TocaAssignment
 {
 
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "TocaAssignment/GameEvent")]
     public class GameEvent : ScriptableObject
     {
         private List<IGameEventListener> listeners =
